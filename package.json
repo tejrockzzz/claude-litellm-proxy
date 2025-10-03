@@ -1,0 +1,37 @@
+{
+  "name": "claude-litellm-proxy",
+  "version": "1.0.0",
+  "description": "Production Claude Code proxy to LiteLLM",
+  "type": "module",
+  "main": "dist/server.js",
+  "packageManager": "pnpm@8.0.0",
+  "engines": {
+    "node": ">=24.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "scripts": {
+    "build": "tsdown src/server.ts --format esm --clean",
+    "start": "node dist/server.js",
+    "dev": "tsx watch src/server.ts",
+    "typecheck": "tsc --noEmit",
+    "format": "biome format --write src",
+    "check": "biome check --apply src"
+  },
+  "dependencies": {
+    "hono": "^4.0.0",
+    "@hono/node-server": "^1.8.0",
+    "dotenv": "^16.3.1",
+    "pino": "^8.17.0",
+    "pino-pretty": "^10.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "tsx": "^4.7.0",
+    "tsdown": "^0.15.0",
+    "@types/node": "^20.0.0",
+    "@biomejs/biome": "^1.5.0"
+  },
+  "keywords": ["claude", "litellm", "proxy", "anthropic", "openai"],
+  "author": "",
+  "license": "MIT"
+}
